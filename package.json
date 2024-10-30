@@ -10,6 +10,7 @@
     "@nuxtjs/i18n": "^8.5.5",
     "@nuxtjs/supabase": "^1.4.1",
     "@pinia/nuxt": "^0.5.5",
+    "ai": "^3.4.27",
     "drizzle-orm": "^0.29.5",
     "markdown-it": "^14.1.0",
     "nuxt": "^3.13.2",

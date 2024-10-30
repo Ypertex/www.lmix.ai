@@ -8,14 +8,21 @@ export default defineNuxtConfig({
     '@nuxt/ui-pro',
   ],
   googleFonts: {
-    families: {
-      Inter: [300, 400, 500, 600, 700],
-      Newsreader: [400, 500, 600],
-      'JetBrains Mono': [400, 500],
-    },
     display: 'swap',
-    prefetch: true,
-    preconnect: true,
+    families: {
+      'DM Sans': {
+        wght: [300, 400, 500, 600, 700],
+        ital: [300, 400, 500, 600, 700],
+      },
+      'DM Serif Display': {
+        wght: [400],
+        ital: [400],
+      },
+      'JetBrains Mono': {
+        wght: [400, 500, 600, 700],
+        ital: [400, 500, 600, 700],
+      },
+    },
   },
   i18n: {
     vueI18n: './i18n.config.ts'

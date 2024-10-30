@@ -6,6 +6,15 @@ export default defineI18nConfig(() => ({
       app: {
         name: 'LMiX',
       },
+      nav: {
+        worlds: 'Worlds',
+        personas: 'Personas',
+        models: 'Models',
+        assistants: 'Assistants',
+        scenarios: 'Scenarios',
+        productions: 'Productions',
+        newProduction: 'New Production'
+      }
     },
   },
 })) 
