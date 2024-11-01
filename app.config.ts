@@ -1,9 +1,25 @@
 export default defineAppConfig({
   ui: {
-    primary: 'turquoise',
+    primary: 'indigo',
     gray: 'neutral',
 
+    icons: {
+      dark: 'i-ph-moon',
+      light: 'i-ph-sun',
+      system: 'i-ph-devices',
+      search: 'i-ph-magnifying-glass',
+      external: 'i-ph-arrow-square-out',
+      chevron: 'i-ph-caret-down',
+      hash: 'i-ph-hash',
+      menu: 'i-ph-list',
+      close: 'i-ph-x',
+      check: 'i-ph-check'
+    },
+
     dashboard: {
+      panel: {
+        border: 'border-gray-50',
+      },
       sidebar: {
         links: {
           trailingIcon: {

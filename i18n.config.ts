@@ -7,6 +7,7 @@ export default defineI18nConfig(() => ({
         name: 'LMiX',
       },
       nav: {
+        stage: 'Stage',
         worlds: 'Worlds',
         personas: 'Personas',
         models: 'Models',
@@ -14,7 +15,13 @@ export default defineI18nConfig(() => ({
         scenarios: 'Scenarios',
         productions: 'Productions',
         newProduction: 'New Production'
-      }
+      },
+      user: {
+        menu: {
+          colorMode: 'Dark Mode',
+          logout: 'Logout',
+        },
+      },
     },
   },
 })) 
